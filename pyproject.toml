@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "jlabs-chat"
+version = "0.1.0"
+description = ""
+authors = ["marcin.tarka <marcin.tarka@j-labs.pl>"]
+readme = "README.md"
+packages = [{include = "jlabs_chat"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^0.27.7"
+langchain = "^0.0.189"
+transformers = "^4.29.2"
+chromadb = "^0.3.26"
+tiktoken = "^0.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
