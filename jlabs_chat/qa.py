@@ -6,7 +6,7 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 from langchain.document_loaders import TextLoader
 
-openai_api_key = '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'
+openai_api_key = '<your key goes here>'
 
 loader = TextLoader("jlabs_en.txt")
 documents = loader.load()
